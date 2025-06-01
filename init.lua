@@ -987,6 +987,6 @@ require('lazy').setup({
   },
 })
 
-vim.api.nvim_set_keymap('n', '<C-M-S-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-S-M-f>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
